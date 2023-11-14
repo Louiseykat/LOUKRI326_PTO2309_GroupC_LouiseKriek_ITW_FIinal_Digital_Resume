@@ -2,3 +2,26 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: #313638;
 }
+
+.heroBanner {
+    background: #2F3131 url(images/background.jpg);
+    height: 200px;
+    margin: 20px;
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header {
+    text-align: center;
+    color:#B7941B;
+    font-size: 200%;
+}
+
+#statement {
+    font-size: 70%;
+}
