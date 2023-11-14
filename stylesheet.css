@@ -1,10 +1,10 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #313638;
+    background: white;
 }
 
 .heroBanner {
-    background: #2F3131 url(images/background.jpg);
+    background: #2F3131 url(images/heroimage2.jpg);
     height: 200px;
     margin: 20px;
     padding-top: 2rem;
@@ -14,14 +14,21 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-}
-
-.header {
     text-align: center;
-    color:#B7941B;
+    color:#ced4da;
     font-size: 200%;
 }
 
 #statement {
     font-size: 70%;
 }
+
+/* #linkedin {
+    height: 50px;
+    filter: invert(100);
+}
+
+#github {
+    height: 50px;
+    filter: invert(100);
+} */
