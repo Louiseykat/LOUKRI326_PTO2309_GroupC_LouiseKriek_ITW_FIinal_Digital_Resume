@@ -1,6 +1,6 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: white;
+    background: goldenrod;
 }
 
 .heroBanner {
@@ -22,6 +22,27 @@ body {
 #statement {
     font-size: 70%;
 }
+
+button {
+    background-color: transparent;
+    padding: 1px 1px;
+    border: none;
+    text-decoration: none;
+}
+
+button:hover {
+    animation: rotation 2s infinite linear;
+    filter: invert(100%);
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
 
 /* #linkedin {
     height: 50px;
