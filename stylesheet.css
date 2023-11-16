@@ -152,6 +152,14 @@ button:hover {
     border-radius: 10px;
   }
 
+  #codespace {
+    color: #6a040f;
+  }
+
+  #codespace:hover {
+    color: #c9c9c9;
+  }
+
   #languages {
     text-align: center;
   }
@@ -161,7 +169,6 @@ button:hover {
     grid-template-columns: 1fr 1fr;
     padding: 0.5rem 0;
 }
-
 
 .skills {
     text-align: center;
@@ -186,24 +193,25 @@ ul {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-  .form {
+
+.form {
     text-align: left;
-  }
+}
   
-  .submitbutton {
-      margin-left: 15rem;}
+.submitbutton {
+    margin-left: 15rem;}
          
-  label {width: 100px;
+label {width: 100px;
       display: inline-block;
       text-align: right;
       color: whitesmoke;
-      }
+    }
   
-  textarea {
+textarea {
     vertical-align: top;
-      }
+}
   
-  input[type=submit] {
+input[type=submit] {
       color: black;
       text-align: center;
       font-weight: bold;
@@ -211,13 +219,13 @@ ul {
       border-width: 2px;
       border-radius: 10px;
       padding: 5px;
-     }
+}
   
-  footer {
+footer {
       color: #6a040f;
       text-align: center;
       margin: 20px;
       background-color:#6c757d;
       padding: 25px;
       border-radius: 10px;
-  }
+}
