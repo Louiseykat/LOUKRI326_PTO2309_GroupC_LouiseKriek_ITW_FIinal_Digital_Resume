@@ -152,6 +152,25 @@ button:hover {
     border-radius: 10px;
   }
 
+  .skills {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.5rem 0;
+}
+
+
+.skills {
+    text-align: center;
+}
+
+.category {
+    padding: 5px;
+    background-color:#6a040f;
+    margin: 0.7rem;
+    border-radius: 10px;
+}
+
   .form {
     text-align: left;
 
