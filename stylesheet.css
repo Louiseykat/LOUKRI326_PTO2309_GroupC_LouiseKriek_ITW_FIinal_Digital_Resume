@@ -173,6 +173,19 @@ button:hover {
     color: #6a040f;
   }
 
+  #experience {
+    text-align: center;
+  }
+  
+  .experience {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      text-align: center;
+      list-style: none;
+      grid-gap: 5vw;
+  }
+
 #languages {
     text-align: center;
 }
