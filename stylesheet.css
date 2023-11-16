@@ -1,6 +1,6 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #343a40;
+    background: black;
 }
 
 h1 {
@@ -11,16 +11,31 @@ a {
     text-decoration: none;
 }
 
-nav {
+.navbar {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    z-index: 1;
-    position: fixed;
-    width: 100%;
-    background-color: black;
     padding: 20px;
-    height: auto;
-    overflow: none;
+    background-color: black;
+    position: sticky;
+    top: 0; 
+    z-index: 1000;
+}
+
+button {
+    background-color: #2F3131;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5%;
+}
+
+button:hover {
+    color:#B7941B;
 }
 
 .heroBanner {
@@ -83,11 +98,21 @@ nav {
     filter: invert(100)
 }
 
-button:hover {
+.emaillink:hover {
     animation: rotation 2s infinite linear;
     filter: invert(100%);
   }
   
+  .gitlink:hover {
+    animation: rotation 2s infinite linear;
+    filter: invert(100%);
+  }
+
+  .linkedin:hover {
+    animation: rotation 2s infinite linear;
+    filter: invert(100%);
+  }
+
   @keyframes rotation {
     from {
       transform: rotate(0deg);
@@ -102,12 +127,6 @@ button:hover {
     100% {filter: invert(100);}
   }
 
-/* #linkedin {
-    height: 50px;
-    filter: invert(100);
-}
-
-#github {
-    height: 50px;
-    filter: invert(100);
-} */
+  .content {
+    background-color: #2F3131;
+  }
