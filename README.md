@@ -4,7 +4,7 @@ This is a digital representation of my resumé as an aspiring software developer
 
 ## Languages
 
-This resumé is written in HTML and styled with CSS in Visual Studio Code.
+This resumé is written in HTML and styled with CSS in Visual Studio Code. Initial instructions were provided by codespace.co.za
 
 ## Usage
 
