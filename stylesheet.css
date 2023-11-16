@@ -3,9 +3,13 @@ body {
     background: goldenrod;
 }
 
+a {
+    text-decoration: none;
+}
+
 .heroBanner {
     background: #2F3131 url(images/heroimage2.jpg);
-    height: 200px;
+    height: 250px;
     margin: 20px;
     padding-top: 2rem;
     padding-bottom: 10rem;
@@ -23,10 +27,37 @@ body {
     font-size: 70%;
 }
 
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emaillink {
+    animation-name: filterchange;
+    border: none;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+    filter: invert(100)
+}
+
+.gitlink {
+    animation-name: filterchange;
+    border: none;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+    filter: invert(100)
+}
+
+.linkedin {
+    animation-name: filterchange;
+    border: none;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+    filter: invert(100)
+}
 button {
     background-color: transparent;
-    padding: 1px 1px;
-    border: none;
     text-decoration: none;
 }
 
@@ -42,6 +73,11 @@ button:hover {
     to {
       transform: rotate(360deg);
     }
+  }
+
+  @keyframes filterchange {
+    50%  {filter: invert(0);}
+    100% {filter: invert(100);}
   }
 
 /* #linkedin {
