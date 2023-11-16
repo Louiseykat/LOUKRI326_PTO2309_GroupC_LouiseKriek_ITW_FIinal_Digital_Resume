@@ -145,15 +145,16 @@ button:hover {
     100% {filter: invert(100);}
   }
 
-  .content {
+.content {
     background-color: #6c757d;
     margin: 20px;
     padding: 35px;
     border-radius: 10px;
-  }
+}
 
 #education {
   text-align: center;
+  color: #6a040f;
 }
 
 .education {
@@ -175,6 +176,7 @@ button:hover {
 
   #experience {
     text-align: center;
+    color: #6a040f;
   }
   
   .experience {
@@ -188,6 +190,7 @@ button:hover {
 
 #languages {
     text-align: center;
+    color: #6a040f;
 }
 
 .skills {
@@ -210,6 +213,7 @@ button:hover {
 
 #additional {
   text-align: center;
+  color: #6a040f;
 }
 
 ul {
@@ -226,7 +230,8 @@ ul {
 }
   
 .submitbutton {
-    margin-left: 15rem;}
+    margin-left: 15rem;
+  }
          
 label {width: 100px;
       display: inline-block;
@@ -239,7 +244,7 @@ textarea {
 }
   
 input[type=submit] {
-      color: black;
+      color: rgb(255, 253, 253);
       text-align: center;
       font-weight: bold;
       background-color:#6a040f;
@@ -255,4 +260,214 @@ footer {
       background-color:#6c757d;
       padding: 25px;
       border-radius: 10px;
+}
+
+@media screen and (max-width: 425px){
+  h2 {
+      font-size: 1.2em;
+  }
+  h3{
+      font-size: 1em;
+  }
+  p {
+      font-size: 1em;
+  }
+  .heroBanner {
+height: 500px;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    background-color: black;
+    position: sticky;
+    top: 0; 
+    z-index: 1000;
+}
+#statement {
+  margin-bottom: 1px;
+  font-size: smaller;
+}
+.emaillink {
+  background-color: transparent;
+  text-decoration: none;
+  width: 50px;
+  animation-name: filterchange;
+  border: none;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; 
+  filter: invert(100)
+}
+
+.gitlink {
+  background-color: transparent;
+  text-decoration: none;
+  width: 50px;
+  animation-name: filterchange;
+  border: none;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; 
+  filter: invert(100)
+}
+
+.linkedin {
+  background-color: transparent;
+  text-decoration: none;
+  width: 50px;
+  animation-name: filterchange;
+  border: none;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; 
+  filter: invert(100)
+}
+content {
+  text-align: center;
+}
+.education {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  text-align: center;
+  list-style: none;
+  grid-gap: 0.5vw;
+  margin:3px;
+  padding-left: 5px;
+}
+.experience {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  text-align: center;
+  list-style: none;
+  grid-gap: 0.5vw;
+  margin:3px;
+  padding-left: 5px;
+}
+.skills {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  padding: 0.5rem 0;
+}
+.additional {
+  display: inline;
+  text-align: center;
+}
+#additional {
+  display: block;
+  text-align: center;
+}
+  footer {
+      margin: 5px;
+      padding: 10px;
+      border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  h2 {
+      font-size: 1.2em;
+  }
+  h3{
+      font-size: 1em;
+  }
+  p {
+      font-size: 1em;
+  }
+  .heroBanner {
+height: 500px;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    background-color: black;
+    position: sticky;
+    top: 0; 
+    z-index: 1000;
+}
+#statement {
+  margin-bottom: 1px;
+  font-size: smaller;
+}
+.emaillink {
+  background-color: transparent;
+  text-decoration: none;
+  width: 50px;
+  animation-name: filterchange;
+  border: none;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; 
+  filter: invert(100)
+}
+
+.gitlink {
+  background-color: transparent;
+  text-decoration: none;
+  width: 50px;
+  animation-name: filterchange;
+  border: none;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; 
+  filter: invert(100)
+}
+
+.linkedin {
+  background-color: transparent;
+  text-decoration: none;
+  width: 50px;
+  animation-name: filterchange;
+  border: none;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; 
+  filter: invert(100)
+}
+content {
+  text-align: center;
+}
+.education {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  text-align: center;
+  list-style: none;
+  grid-gap: 0.5vw;
+  margin:2px;
+  padding-left: 5px;
+}
+.experience {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  text-align: center;
+  list-style: none;
+  grid-gap: 0.5vw;
+  margin:2px;
+  padding-left: 5px;
+}
+.skills {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  padding: 0.5rem 0;
+}
+.additional {
+  display: inline;
+  text-align: center;
+  list-style: none;
+}
+#additional {
+  display: block;
+  text-align: center;
+  list-style: none;
+}
+footer {
+  }
+  textarea {width: 80%;
+  }
+  .submitbutton {
+  margin-left: 19rem;
+  }   
 }
