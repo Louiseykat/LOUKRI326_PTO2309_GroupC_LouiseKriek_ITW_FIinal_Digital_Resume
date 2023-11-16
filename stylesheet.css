@@ -1,6 +1,10 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: goldenrod;
+    background: #343a40;
+}
+
+h1 {
+    text-shadow: black 10px 10px 10px;
 }
 
 a {
@@ -19,8 +23,9 @@ a {
     background-size: cover;
     position: relative;
     text-align: center;
-    color:#ced4da;
+    color:#e4e4e4;
     font-size: 200%;
+    text-shadow: black 10px 10px 10px;
 }
 
 #statement {
@@ -56,9 +61,11 @@ a {
     animation-iteration-count: infinite; 
     filter: invert(100)
 }
+
 button {
     background-color: transparent;
     text-decoration: none;
+    width: 130px;
 }
 
 button:hover {
