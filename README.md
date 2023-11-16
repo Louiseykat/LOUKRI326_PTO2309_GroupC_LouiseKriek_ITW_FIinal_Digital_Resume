@@ -1,14 +1,14 @@
-# Louise Kriek Digital Resume
+# Louise Kriek Digital Resumé
 
-This is a digital representation of my resume as an aspiring software developer.
+This is a digital representation of my resumé as an aspiring software developer.
 
 ## Languages
 
-This resume is written in HTML and styled with CSS in Visual Studio Code.
+This resumé is written in HTML and styled with CSS in Visual Studio Code.
 
 ## Usage
 
-The resume will be sent to prospective employers, and all necessary changes will be made as my skill/experience change and develop over time.
+The resumé will be sent to prospective employers, and all necessary changes will be made as my skill/experience change and develop over time.
 
 ## Contributors
 
