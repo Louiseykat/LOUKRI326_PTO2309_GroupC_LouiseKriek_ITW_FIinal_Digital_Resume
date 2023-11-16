@@ -24,10 +24,10 @@ a {
 }
 
 button {
-    background-color: #2F3131;
+    background-color:#6a040f;
     border: none;
     color: white;
-    padding: 15px 15px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -37,7 +37,7 @@ button {
 }
 
 button:hover {
-    color:#007f5f;
+    color:#2F3131;
 }
 
 .heroBanner {
@@ -57,9 +57,15 @@ button:hover {
     font-size: 150%;
 }
 
-img {
+.photos {
+    display: grid;
+    place-items: center;
+}
+
+#profilepic {
  border-radius: 50%;
  margin-top: 30px;
+ border: #6a040f solid 10px;
 }
 
 #careerTitle {
@@ -67,7 +73,6 @@ img {
 }
 
 #statement {
-    font-size: 100%;
     margin-bottom: 1px;
 }
 
@@ -75,6 +80,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none;
 }
 
 .emaillink {
@@ -140,8 +146,45 @@ img {
   }
 
   .content {
-    background-color: #2F3131;
+    background-color: #6c757d;
     margin: 20px;
     padding: 35px;
     border-radius: 10px;
+  }
+
+  .form {
+    text-align: left;
+
+  }
+  
+  .submitbutton {
+      margin-left: 15rem;}
+         
+  
+  label {width: 100px;
+      display: inline-block;
+      text-align: right;
+      color: whitesmoke;
+      }
+  
+  textarea {vertical-align: top;
+      }
+  
+  input[type=submit] {
+      color: black;
+      text-align: center;
+      font-weight: bold;
+      background-color:#6a040f;
+      border-width: 2px;
+      border-radius: 10px;
+      padding: 5px;
+     }
+  
+  footer {
+      color: #6a040f;
+      text-align: center;
+      margin: 20px;
+      background-color:#6c757d;
+      padding: 25px;
+      border-radius: 10px;
   }
