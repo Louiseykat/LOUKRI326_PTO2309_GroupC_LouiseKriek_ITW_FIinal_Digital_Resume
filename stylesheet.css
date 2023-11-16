@@ -3,8 +3,9 @@ body {
     background: black;
 }
 
-h1 {
+#pageTitle {
     text-shadow: black 10px 10px 10px;
+    margin: 5px
 }
 
 a {
@@ -32,18 +33,19 @@ button {
     display: inline-block;
     font-size: 16px;
     border-radius: 5%;
+    font-weight: bold;
 }
 
 button:hover {
-    color:#B7941B;
+    color:#007f5f;
 }
 
 .heroBanner {
     position: relative;
     background: #2F3131 url(images/heroimage2.jpg);
-    height: 250px;
+    height: 730px;
     margin: 20px;
-    padding-top: 2rem;
+    padding-top: 5px;
     padding-bottom: 10rem;
     border-radius: 10px;
     background-position: center;
@@ -52,11 +54,21 @@ button:hover {
     position: relative;
     text-align: center;
     color:#e4e4e4;
-    font-size: 200%;
+    font-size: 150%;
+}
+
+img {
+ border-radius: 50%;
+ margin-top: 30px;
+}
+
+#careerTitle {
+    margin: 5px;
 }
 
 #statement {
-    font-size: 70%;
+    font-size: 100%;
+    margin-bottom: 1px;
 }
 
 .links {
@@ -99,17 +111,17 @@ button:hover {
 }
 
 .emaillink:hover {
-    animation: rotation 2s infinite linear;
+    animation: rotation 1s infinite linear;
     filter: invert(100%);
   }
   
   .gitlink:hover {
-    animation: rotation 2s infinite linear;
+    animation: rotation 1s infinite linear;
     filter: invert(100%);
   }
 
   .linkedin:hover {
-    animation: rotation 2s infinite linear;
+    animation: rotation 1s infinite linear;
     filter: invert(100%);
   }
 
@@ -129,4 +141,7 @@ button:hover {
 
   .content {
     background-color: #2F3131;
+    margin: 20px;
+    padding: 35px;
+    border-radius: 10px;
   }
