@@ -152,6 +152,9 @@ button:hover {
     border-radius: 10px;
   }
 
+  #languages {
+    text-align: center;
+  }
   .skills {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -171,22 +174,33 @@ button:hover {
     border-radius: 10px;
 }
 
+#additional {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
   .form {
     text-align: left;
-
   }
   
   .submitbutton {
       margin-left: 15rem;}
          
-  
   label {width: 100px;
       display: inline-block;
       text-align: right;
       color: whitesmoke;
       }
   
-  textarea {vertical-align: top;
+  textarea {
+    vertical-align: top;
       }
   
   input[type=submit] {
