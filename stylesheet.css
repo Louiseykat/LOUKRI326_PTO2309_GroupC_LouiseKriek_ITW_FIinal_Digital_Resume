@@ -152,18 +152,32 @@ button:hover {
     border-radius: 10px;
   }
 
-  #codespace {
+#education {
+  text-align: center;
+}
+
+.education {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    list-style: none;
+    grid-gap: 5vw;
+}
+
+#codespace {
+    color: #d6d3d3;
+  }
+
+#codespace:hover {
     color: #6a040f;
   }
 
-  #codespace:hover {
-    color: #c9c9c9;
-  }
-
-  #languages {
+#languages {
     text-align: center;
-  }
-  .skills {
+}
+
+.skills {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
